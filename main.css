@@ -51,7 +51,7 @@ body {background: rgb(0, 0, 0);}
 
     font-size: 8vw;
     font-weight: bold;
-    font-family: 'Schadow BT';
+    font-family: 'Times New Roman';
     text-shadow: 0 0 20px black;
     /* обводка текста :) */
     -webkit-text-stroke: 1px white;
