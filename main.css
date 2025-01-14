@@ -68,7 +68,7 @@ body {background: rgb(0, 0, 0);}
     z-index: 3;
 }
 .content > .heart {
-    /* width: ; */
+    /* width: 30vw; */
     height: 60vh;
     justify-self: center;
     align-self: flex-start;
@@ -109,5 +109,39 @@ body {background: rgb(0, 0, 0);}
     }
     100% {
         filter: drop-shadow(0 0 10px white);
+    }
+}
+
+/* медиа запросы */
+@media (max-width: 1200px) {    
+    .content > .sometext {
+        font-size: 8vw;
+    }
+    .content > .heart {
+        height: 60vh;
+    }
+}
+@media (max-width: 1000px) {
+    .content > .sometext {
+        font-size: 9vw;
+    }
+    .content > .heart {
+        height: 60vh;
+    }
+}
+@media (max-width: 768px) {
+    .content > .sometext {
+        font-size: 12vw;
+    }
+    .content > .heart {
+        height: 80vw;
+    }
+}
+@media (max-width: 480px) {
+    .content > .sometext {
+        font-size: 13vw;
+    }
+    .content > .heart {
+        height: 70vw;
     }
 }
